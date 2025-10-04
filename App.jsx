@@ -1,6 +1,6 @@
 //importing [mytest.jsx] file
-import './Mytest'
-import Mytest from './Mytest'
+import './passwordgenerate'
+import passwordgenerate from './passwordgenerate'
 import './index.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   
   return (
    <>
-      <Mytest/>
+      <passwordgenerate/>
       
     
     </>
