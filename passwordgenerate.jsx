@@ -1,6 +1,6 @@
 import React, { useState,useCallback,useEffect,useRef} from 'react'
 
-const Mytest = () => {
+const passwordgenerate = () => {
   //length of password 
   const[length,setlength]=useState(8);
   //Number in password
@@ -99,4 +99,5 @@ useEffect(()=>{
   )
 }
 
-export default Mytest
+export default passwordgenerate
+
